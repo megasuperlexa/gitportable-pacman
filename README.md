@@ -33,5 +33,12 @@ Clone powerlevel10k
 ```
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 ```
-Add everything in `.zshrc`
+Add everything in [`.zshrc`](.zshrc_sample)
+
+Create `~\.bashrc`:
+```
+export SHELL=/bin/zsh
+exec /bin/zsh
+```
+
 
